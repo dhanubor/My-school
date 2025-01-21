@@ -1,0 +1,90 @@
+/* Global selection style */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+/* shere style */
+body{
+    font-family: Quicksand; 
+}
+.yellow{
+    color:  rgb(254, 163, 1);
+}
+.sky-blu{
+   color: rgb(1, 172, 253);
+}
+.rgb{
+    color: rgb(5, 212, 223);
+}
+.blue{
+    color: rgb(93, 88, 239);
+}
+.display-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Button style */
+button {
+    
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 10px;
+
+background: rgb(254, 163, 1);
+  }
+  /* ===========header=============== */
+  header{
+    max-width: 1158px;
+    align-items: center;
+    border: 2px solid yellow;
+    visibility: hidden;
+  }
+  .navber-contant{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     justify-content: center;
+     align-items: center;
+  }
+  
+  .navber-item{
+    list-style: none;
+    margin-left:32px ;
+  }
+  .navber-item a{
+    text-decoration: none;
+    font-size: 20px;
+font-weight: 500;
+  }
+  /* Standard Curriculum */
+  .Standard>h1{
+ text-align: center;
+ padding: 60px 0px 60px 0px;
+ color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 46px;
+font-weight: 700;
+line-height: 57.5px;
+  }
+  .card{
+    display: grid;
+   
+  }
+  
+  .card-item{
+    width: 367.8px;
+height: 476.78px;
+    box-sizing: border-box;
+border: 0.94px solid rgb(222, 245, 255);
+border-radius: 18.86px;
+
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+  }
